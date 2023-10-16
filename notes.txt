@@ -11,8 +11,8 @@
 
 # To create a group of EC2 instances
 
-- ASC (Auto Scaling Group)
-- ASC help to distribute EC2 instances across multiple zones
+- ASG (Auto Scaling Group)
+- ASG help to distribute EC2 instances across multiple zones
 
 
 # Regions and Zones
