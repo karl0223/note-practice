@@ -1,0 +1,32 @@
+# AWS
+
+# To Deploy REST API in AWS
+
+- it needs multiple virtual machine
+- virtual machine needs to have a load balancer
+- EC2 (Elastic Compute Cloud)                                   # for virtual machine
+- ELB (Elastic Load Balancer)                                   # for load balancer
+
+- ELB helps balances the EC2 instances
+
+# To create a group of EC2 instances
+
+- ASC (Auto Scaling Group)
+- ASC help to distribute EC2 instances across multiple zones
+
+
+# Regions and Zones
+
+- deploy vm's to different parts of the world
+- increase availability of the app
+- It helps to avoid application downtime by deploying it in different regions
+
+# Manage Services
+
+- automatically setup the aws
+- simple setup mentioned above  (deploy, EC2 instances, R & Z)
+
+# Elastic BeanStalk
+
+- automatically scale the EC2 instances based on the load
+- no need to worry about the setup. It takes care of everything
