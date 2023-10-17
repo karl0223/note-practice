@@ -23,7 +23,7 @@
 - increase availability of the app
 - It helps to avoid application downtime by deploying it in different regions
 
-# Manage Services
+# Manage Compute Services
 
 - automatically setup the aws
 - simple setup mentioned above  (deploy, EC2 instances, R & Z)
@@ -56,3 +56,39 @@
 
 # ---------------------------------------------------------
 
+# Running Database in AWS
+
+# Manage Database Services
+    - choose between sql or no-sql database
+    - transactional database / application
+    - used for small updates                            # e.g Inserting 5 rows, deleting 10 rows, etc
+
+    # Types
+        # SQL (Relational Databases)
+            - RDS               # limited scale -- 64 TB
+            - Aurora            # Global Relational Database
+
+        # No-SQL
+            - DynamoDB          # Document database
+
+
+# Analytical Database
+    - Used for reporting / business intelligence application
+    - Hadoop
+
+    # Load the data in bulk
+        - Get all the data in the Database (RDS) and load the data in bulk in Analytical Database
+        - run complex queries
+
+    # AWS Data Pipeline
+        - Use AWS Data Pipeline to get the data in the RDS / Transactional database to Analytical Database
+
+    # Run a Analytical Database in AWS
+        - Redshift
+
+# AWS Business Intelligence Solutions
+
+    # AWS Quick Sight
+        - used to read Analytical databases to get intelligence
+
+# ---------------------------------------------------------
