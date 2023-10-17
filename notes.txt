@@ -1,5 +1,7 @@
 # AWS
 
+# ---------------------------------------------------------
+
 # To Deploy REST API in AWS
 
 - it needs multiple virtual machine
@@ -30,3 +32,27 @@
 
 - automatically scale the EC2 instances based on the load
 - no need to worry about the setup. It takes care of everything
+- useful when dealing with Single application
+
+# Container Orchestration
+
+- used for complex REST API / many application
+
+    # Kubernetes
+        - EKS (Elastic Kubernetes Services)
+        - ECS (Elastic Container Service)
+
+        - create a cluster with multiple nodes
+        - to de-cluster, deploy the application
+
+    # AWS Fire Gate
+        - serverless version of ECS
+        - serverless container option
+
+# Serverless
+
+- AWS Lambda
+- no need to worry about servers
+
+# ---------------------------------------------------------
+
