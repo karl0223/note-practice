@@ -135,3 +135,33 @@
     - used as distribution mechanism
 
 # ---------------------------------------------------------
+
+# Security
+
+# Virtual Private Cloud (VPC)
+    - control the entire traffic going in to the devices and to databases
+    - has rules
+    - has difference usecases to access different resources in VPC
+
+    # Subnets
+        - configure different rules for different things
+        - rules to allow or reject
+
+        # Public Subnets
+            - Can be access publicly
+            - all resources that are publicly available
+
+        # Private Subnets
+            - cannot be access from the outside world
+            - put all resources that needs to be private
+
+# Manage VPN
+    - used to connect VPC and Data Center
+
+    # IpSec Protocol
+        - used to encrypt traffic
+
+    # Create Dedicated Connection between VPC and Data Center
+        - establish a direct connect
+
+# ---------------------------------------------------------
