@@ -1,5 +1,7 @@
 # AWS
 
+- shared cloud platform
+
 # ---------------------------------------------------------
 
 # To Deploy REST API in AWS
@@ -90,5 +92,46 @@
 
     # AWS Quick Sight
         - used to read Analytical databases to get intelligence
+
+# ---------------------------------------------------------
+
+# Front End
+
+- setup EC2 instances
+
+# Use Case to attach Storage in Virtual Machine
+
+    # EBS (Elastic Block Store)
+        - Hard disk is automatically created when creating EC2 instances
+        - EBS is the service used to create hard disk automatically
+        - create hard disk and attack to virtual machine
+        - can only attach to a single VM
+
+    # EFS (Elastic File Store)
+        - Create file shares to share in multiple EC2 instances / data center
+        - can be shared in multiple devices
+
+# Object Storage
+    - create a bucket
+    - store objects in key, value pair
+    - any files can be stored
+    - Use REST API to upload objects
+
+    # Use Case
+        - store achive files
+        - can be used for temporary storage when migrating
+
+    # Create a static website
+        - recommended to expose static website
+        - Use S3 (Simple Storage Service)
+        - deploy the front end into a bucket to S3
+
+# Route 53
+    - Domain name Services in AWS
+    - name a website                    # www.karl.com
+
+# Cloud Front
+    - Used to cache and distribute content from S3 around the world
+    - used as distribution mechanism
 
 # ---------------------------------------------------------
