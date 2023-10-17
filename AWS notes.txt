@@ -165,3 +165,69 @@
         - establish a direct connect
 
 # ---------------------------------------------------------
+
+# Implementing Queue in REST API
+
+    # Amazon SQS
+        - Queueing system
+        - provides asynchronous communication
+
+# Implementing Email, receive notification
+    - In S3, use SNS (Simple Notification Service)
+
+
+# DevOPS
+    - Continuous Implemtation / Continuous Deployment (CI/CD)
+    - Infrastructure as code (IaaC)
+    - Observability -- metrics, logs
+
+    # Recommended Services
+    
+    # CI / CD 
+        # AWS Pipeline
+
+            1. AWS Code Build
+                - docker image, jar file, war file
+
+            2. AWS Code Deploy
+                - Elastic BeanStalk, any other manage which are present in AWS, EC2 instances
+
+    # IaaC
+        1. Provisioning the Infrastructure
+            - Creating VPC, Subnets, EC2 instances, Elastic BeanStalk, Database
+
+            # Automate
+                - Cloud Formation (CF)      - complex scripts
+                - Terraform                 - simple scripts
+                - CDK                       - write java, python, etc programs
+
+        2. Configuration Management
+            1. Open Source
+                - Ansible
+                - Chef
+                - Puppet
+
+            2. AWS Service
+                - AWS OPSWorks
+
+    # Observability
+        1. Tracing
+            - trace request across multiple microservices
+
+        2. Logs
+            - logs coming from application, load balancers, database, etc
+
+        3. Metrics
+            - CPU consumptions
+
+        # AWS Service
+            1. AWS Cloud Watch
+                - Metrics
+
+            2. AWS Cloud Watch Logs
+                - Logs
+
+            3. AWS X-Ray
+                - Tracing
+
+# ---------------------------------------------------------
